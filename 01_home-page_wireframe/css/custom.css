@@ -12,6 +12,8 @@
 	margin-bottom: 10px;
 }
 
+/*HOMEPAGE STYLES*/
+
 .site-header {
 	min-height: 100%;
 	margin-bottom: 20px;
@@ -116,4 +118,40 @@ nav ul {
 
 .paralax h2 {
 	margin-top: 150px;
+}
+
+/*INTERNAL STYLES*/
+.float-right {
+	float: right;
+}
+
+#internal ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#internal .slideshow {
+	height: 400px;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	display: flex;
+	width: 100%;
+}
+
+#internal .slideshow-wrap {
+	width: 100%;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+#internal .top-nav .column {
+	min-height: 0;
 }
