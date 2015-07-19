@@ -1,0 +1,157 @@
+*:not(body):not(html) {
+	box-sizing: border-box;
+	border: 1px dashed #000;
+}
+
+.column {
+	min-height: 100px;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*HOMEPAGE STYLES*/
+
+.site-header {
+	min-height: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+
+.slideshow {
+	min-height: 550px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.slideshow .large-12 {
+	margin-top: 220px;
+}
+
+.wrapper {
+	margin-bottom: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	border: none;
+}
+`
+nav ul {
+	max-width: 300px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.nav-wrapper {
+	background-color: white;
+}
+
+.nav-wrapper > nav,
+.nav-wrapper > div {
+	min-height: 0;
+	border: none;
+}
+
+.nav-wrapper > nav {
+	float: right;
+}
+
+.pods {
+	min-height: 300px;
+	padding: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.88);
+  color: white;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+}
+
+.overlay button {
+  background-color: rgb(92, 15, 15);
+  width: 100%;
+}
+
+.overlay h1,
+.overlay h2,
+.overlay h3 {
+	color: white;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.images {
+	background: url(../images/placeholder250-300.jpg) no-repeat center top;
+}
+
+.blog li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.blog li:nth-child(1)
+
+.blog li:before {
+	content: "-";
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.blog ul {
+	padding: 0;
+	margin: 0 0 10px 0;
+	border:none;
+}
+
+.paralax .column {
+	min-height: 350px;
+}
+
+.paralax h2 {
+	margin-top: 150px;
+}
+
+/*INTERNAL STYLES*/
+.float-right {
+	float: right;
+}
+
+#internal ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#internal .slideshow {
+	height: 400px;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	display: flex;
+	width: 100%;
+}
+
+#internal .slideshow-wrap {
+	width: 100%;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+#internal .top-nav .column {
+	min-height: 0;
+}
