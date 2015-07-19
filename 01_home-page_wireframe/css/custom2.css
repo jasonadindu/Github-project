@@ -1,0 +1,55 @@
+*:not(body):not(html) {
+	box-sizing: border-box;
+	border: 1px dashed #000;
+}
+
+.column {
+	min-height: 100px;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.site-header {
+	min-height: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+
+.float-right {
+	float: right;
+}
+
+ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.slideshow {
+	height: 400px;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	display: flex;
+	width: 100%;
+}
+
+.slideshow-wrap {
+	width: 100%;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+.top-nav .column {
+	min-height: 0;
+}
