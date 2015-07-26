@@ -1,0 +1,43 @@
+body {
+  background: #123;
+  font-family: sans-serif;
+  color: #80552b; }
+  body h1 {
+    color: #80552b; }
+
+a {
+  color: #80552b; }
+
+/*
+
+.blog { 
+	> h1 {
+		color: darkblue;
+		border: 1px solid darkblue;
+	}
+	.entry {
+		h1 {
+			font-size: 20px;
+			color: cornflowerblue;
+		}
+		p {
+			font-size: 12px;
+			margin: 20px;
+			html.csscolumns & {
+				column-count: 2;
+				column-gap: 10px;
+				margin: 10px;	
+			}
+		}
+		a {
+			color: lightblue;
+			&:hover {
+				color: mediumvioletred;
+			}
+		}
+	} 
+}
+
+*/
+
+/*# sourceMappingURL=style.css.map */

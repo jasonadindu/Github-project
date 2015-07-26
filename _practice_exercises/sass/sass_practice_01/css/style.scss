@@ -1,0 +1,35 @@
+@import "_variables.scss";
+@import "_globals.scss";
+@import "pages/_about_us.scss";
+
+/*
+
+.blog { 
+	> h1 {
+		color: darkblue;
+		border: 1px solid darkblue;
+	}
+	.entry {
+		h1 {
+			font-size: 20px;
+			color: cornflowerblue;
+		}
+		p {
+			font-size: 12px;
+			margin: 20px;
+			html.csscolumns & {
+				column-count: 2;
+				column-gap: 10px;
+				margin: 10px;	
+			}
+		}
+		a {
+			color: lightblue;
+			&:hover {
+				color: mediumvioletred;
+			}
+		}
+	} 
+}
+
+*/

@@ -1,0 +1,7 @@
+// Colors
+$background: #123;
+$text-color: complement($background);
+$light-text-color: lighten($text-color , 20%);
+
+// Sizes
+$float-l: left;
