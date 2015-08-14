@@ -1,0 +1,98 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-outline: border-box;
+	-moz-outline: border-box;
+	outline: none; 
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 62.5%;
+
+	/*font-family: 'Merriweather Sans', sans-serif;*/
+	/*font-family: 'Asap', sans-serif;*/
+/* 	font-family: 'Raleway', sans-serif; */
+/* 	font-family: 'Open Sans', sans-serif; */
+/* 	font-family: 'Open Sans Condensed', sans-serif; */
+/* 	font-family: 'Roboto', sans-serif; */
+	font-family: 'Lato', sans-serif;
+
+	background-color: #002b36;
+	display: flex;
+	align-items: center;
+}
+#form-wrapper {
+	background-color: #073642;
+	border-top: 2px solid #859900;
+	width: 240px;
+	margin: 0 auto;
+	padding: 0 20px 20px;
+	box-shadow: 1px 1px 1px #002b36;
+}
+h1{
+	font-size: 260%;
+	font-weight: 200;
+}
+label {
+	font-size: 1.2em;
+	text-shadow: 1px 0px 0.5px #888;
+	display: block;
+	margin: 10px 0 5px;
+	position: relative;
+}
+input, select {
+	width: 100%;
+	padding: 8px;
+	color: #586e75;
+	font-size: 1.32em;
+	font-weight: 800;
+	background-color: #003542;
+	border: 1px solid #002b36;
+	border-radius: 2px;
+}
+input:focus {
+	border-color: #003542;	
+}
+input[type="submit"] {
+	color: #002b36; 
+	text-transform: uppercase;
+/* 	text-align: left; */
+	background-color: #859900;
+	background-image: none;
+	border-color: #758700;
+	margin-top: 10px;
+/* 	padding-left: 12px; */
+	display: block;
+	-webkit-transition-duration: 0.3s; 
+	transition-duration: 0.3s;
+}
+input[type="submit"]:hover {
+	color: #222;
+	background-color: #90a600;
+	box-shadow: 0 0 12px #000E12;
+	-webkit-transition-duration: 0.3s; 
+	transition-duration: 0.3s;
+}
+label.selected:after {
+	width: 100%;
+	-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+label:after {
+	content:"";
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: #859900;
+	position: absolute;
+	top: 52px;
+}
